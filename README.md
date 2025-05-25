@@ -1,13 +1,23 @@
 # 🧱 Simple Blockchain Simulator
 
-Simulasi sederhana blockchain menggunakan Python. Tidak terhubung ke jaringan manapun, hanya untuk edukasi.
+Simulasi blockchain sederhana menggunakan Python dan Streamlit. Cocok untuk pembelajaran dasar tentang cara kerja blockchain secara lokal — tanpa jaringan atau token sungguhan.
 
-## Fitur
-- Tambah block
-- Hashing SHA256
-- Proof of Work
-- Validasi blockchain
+## 🔧 Fitur
+- Tambah blok baru dengan form transaksi (pengirim → penerima)
+- Proof-of-Work dan validasi hash SHA256
+- Visualisasi setiap blok dalam antarmuka interaktif
+- Live validasi struktur blockchain
 
-## Jalankan
+## 🚀 Cara Menjalankan
+
+### 🟢 Buka di Gitpod
+Klik tombol berikut untuk langsung menjalankan:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ulsreall/simple-blockchain)
+
+Gitpod akan membuka web app secara otomatis di port `7860`.
+
+### 🔁 Manual (Lokal)
 ```bash
-python blockchain.py
+pip install -r requirements.txt
+streamlit run app.py
