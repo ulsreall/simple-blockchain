@@ -2,4 +2,4 @@ image: python:3.10
 
 tasks:
   - init: pip install -r requirements.txt
-    command: python blockchain.py
+    command: streamlit run app.py --server.headless true --server.port 7860
